@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'iran';
+    src: url('../font/iran.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'kalameh';
+    src: url('../font/kalameh.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'dana';
+    src: url('../font/dana.ttf') format('truetype');
+}

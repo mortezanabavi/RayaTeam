@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="center">
+		<div class="box">
+			<img src="musics/1/icon.jpg">
+			<h2>Hichkas</h2>
+			<p>Jadvalo Roya</p>
+			<audio src="musics/1/music.mp3" preload="metadata" onended="next('1')"></audio>
+			<div class="timeline">
+				<span id="current-time" class="time">0:00</span>
+				<input type="range" id="seek-slider" max="100" value="0">
+				<span id="duration" class="time">0:00</span>
+			</div>
+			<div class="buttondiv">
+				<button id="back" onclick="back('1')"><i class="fa-solid fa-backward"></i></button>
+				<button id="play-icon" onclick="play()"><i class="fa-solid fa-play"></i></button>
+				<button id="next" onclick="next('1')"><i class="fa-solid fa-forward"></i></button>
+			</div>
+		</div>
+	</div>
+	<script src="js/fontawesome.js" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
