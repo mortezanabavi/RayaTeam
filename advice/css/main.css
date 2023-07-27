@@ -32,8 +32,14 @@ body {
     -o-border-radius: 20px;
     text-align: center;
 }
+span {
+    font-family: dana;
+    margin-top: 10px;
+}
 p {
-    padding: 50px;
+    position: fixed;
+    margin-top: 30px;
+    padding: 60px;
     font-family: kalameh;
     font-size: 17px;
 }
