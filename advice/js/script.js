@@ -11,7 +11,7 @@ function next(id=Math.floor(Math.random() * 100)+1) {
 }
 function back(id) {
     if (id < 1) {
-        alert('دیگه نداریم.');
+        alert('دیگه نداریم');
     }
     else {
         fetch(`https://api.adviceslip.com/advice/${id}`)
