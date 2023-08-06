@@ -65,7 +65,7 @@ function back(id) {
         document.querySelector('#next').onclick = function () {next(id)};
         document.querySelector('audio').onended = function () {next(id)};
         play();
-    }).catch(err => next('5'));
+    }).catch(err => next('6'));
 }
 setInterval(playingAudio, 1000);
 
