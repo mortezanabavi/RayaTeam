@@ -1,2 +1,2 @@
 Stg = "Ahmad Ahmadreza MohammadReza"
-print(Stg.lower().count('a'))
+print(Stg.lower().count('a')) 
