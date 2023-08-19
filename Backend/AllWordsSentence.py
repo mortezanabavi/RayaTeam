@@ -1,2 +1,2 @@
 Sentence = "Hello World"
-print(Sentence.split())
+print(Sentence.split()) 
