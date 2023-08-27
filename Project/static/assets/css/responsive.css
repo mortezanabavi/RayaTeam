@@ -1,0 +1,44 @@
+@media screen and (max-width: 400px){                 
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px){   
+  #header .main-header nav ul {
+    display: flex;
+  }
+  .nav-bottom {
+    display: none;
+  }
+  footer.pc {
+    margin-bottom: 0 !important;
+  }
+  #slider .main-slider {
+    height: 35rem;
+  }
+}
+
+@media screen and (min-width: 992px){
+  #slider .main-slider {
+    height: 40rem;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  #slider .main-slider {
+    height: 45rem;
+  }
+}
+
+
+/* زیر 400 پیکسل : برای گوشی های با صفحه نمایش کوچک */
+
+/* بالای 400 پیکسل تا 576 پیکسل : گوشی های با صفحه نمایش معمولی رو به بالا */
+
+/* از 576 پیکسل تا 768 پیکسل تبلت و گوشی های با صفحه نمایش بزرگ */
+
+/* از 768 پیکسل تا 992 پیکسل لپ تاپ های با صفحه نمایش کوچک  */
+
+/* از 992 پیکسل به بالا لپ تاپ و مانیتور */
+
