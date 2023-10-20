@@ -34,7 +34,7 @@ body {
     background-color: var(--siderbar);
     color:white;
 }
-.head .sidebarClose {
+.head .sidebarOpen {
     display: block;
 }
 .head .sidebar .siderbarul {

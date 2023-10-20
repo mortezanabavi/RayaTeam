@@ -1,4 +1,4 @@
 function sidebar() {
     siderbarDisplay = document.querySelector('.sidebar');
-    siderbarDisplay.classList.toggle("sidebarClose");
+    siderbarDisplay.classList.toggle("sidebarOpen");
 }
