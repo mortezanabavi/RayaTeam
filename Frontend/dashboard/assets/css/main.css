@@ -28,14 +28,14 @@ body {
     -o-transition: all 1s ease-in-out;
 }
 .head .sidebar {
-    display: block;
+    display: none;
     width: 200px;
     height: 100vh;
     background-color: var(--siderbar);
     color:white;
 }
 .head .sidebarClose {
-    display: none;
+    display: block;
 }
 .head .sidebar .siderbarul {
     margin-top: 40px;
